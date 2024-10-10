@@ -43,28 +43,6 @@ The database includes several stored procedures to manage common operations:
 - `SetUserPrime`: Marks a user as a prime member.
 - `UpdateProduct`: Updates product details.
 
-## Importing the Database
-
-To import this SQL dump into your database:
-
-1. Open phpMyAdmin or any MySQL client.
-2. Create a new database (e.g., `ecommerce_db`).
-3. Import the SQL dump:
-    - In phpMyAdmin, go to the **Import** tab, upload the SQL file, and click **Go**.
-    - In the MySQL client, use the following command:
-
-    ```bash
-    mysql -u your_username -p ecommerce_db < path_to_sql_dump.sql
-    ```
-
-## Sample Data
-
-The dump contains some sample data for testing:
-
-- **buyer**: Has a single record of a prime user.
-- **category**: Predefined categories for products.
-- **product**: Some initial products for testing.
-
 ## Auto-Increment Fields
 
 Ensure auto-increment fields are properly set for:
