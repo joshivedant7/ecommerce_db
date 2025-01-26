@@ -10,6 +10,10 @@ Before setting up the database, ensure you have the following installed:
 - **phpMyAdmin** (Optional, Version: 5.2.1 or higher)
 - **PHP** (Version: 8.2.12 or higher)
 
+## Class-Diagram
+
+<img src="class_diagram.png">
+
 ## Database Structure
 
 The database contains several tables designed for managing an e-commerce platform, including users, products, categories, and logs. Key tables are:
